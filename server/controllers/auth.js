@@ -68,7 +68,7 @@ export const forgetPassword = async (req, res) => {
             subject: "Reset Password",
             html: `<h1>Reset Your Password</h1>
                    <p>Click on the following link to reset your password:</p>
-                   <a href="https://666432dfb7dd97baaf16fcd5--remarkable-hummingbird-d0a4ee.netlify.app//reset-password/${token}">Reset Password</a>
+                   <a href="https://666432dfb7dd97baaf16fcd5--remarkable-hummingbird-d0a4ee.netlify.app/reset-password/${token}">Reset Password</a>
                    <p>The link will expire in 10 minutes.</p>
                    <p>If you didn't request a password reset, please ignore this email.</p>`,
         };
